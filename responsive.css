@@ -1,0 +1,63 @@
+@media all and (max-width: 1000px) {
+    .profile h1 {
+        font-size: 100px;
+    }
+
+    .profile h3 {
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .heading {
+        font-size: 20px;
+        padding-top: 40px;
+        padding-bottom: 25px;
+        margin: 0;
+    }
+
+    .header-logo {
+        padding-left: 10px;
+        letter-spacing: 3px;
+        font-size: 20px;
+    }
+    
+    .header-list li {
+        font-size: 10px;
+        padding-right: 10px;
+        font-weight: lighter;
+    }
+    
+    .profile h1 {
+        font-size: 60px;
+    }
+
+    .profile h3 {
+        font-size: 24px;
+    }
+
+    .profile img {
+        width: 200px;
+    }
+
+    .about-me p {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .project-icon {
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    input, textarea {
+        width: 300px;
+    }
+
+    .footer-logo {
+        font-size: 24px;
+        padding-left: 10px;
+        letter-spacing: 3px;
+        padding-top: 36px;
+    }
+}
