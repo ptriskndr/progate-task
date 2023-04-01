@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.header-logo {
+    padding-left: 20px;
+    line-height: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 24px;
+}
+
+.header-list li {
+    font-size: 14px;
+    padding-right: 20px;
+    display: inline-block;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.profile h1 {
+    font-size: 140px;
+    letter-spacing: 3px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.profile h3 {
+    margin: 0;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+.profile h1 span {
+    color: rgb(224, 191, 45)
+}
+
+.profile img {
+    width: 250px;
+}
+
+.about-me {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #e6e6e6;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.about-me p {
+    padding-left: 120px;
+    padding-right: 120px;
+    line-height: 25px;
+    font-weight: 100px;
+}
+
+.project-icon {
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+
+}
+
+.project img {
+    width: 200px;
+    height: 200px;
+}
+
+.project p {
+    text-align: center;
+}
+
+.contact-form {
+    background-color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+    border-radius: 15px;
+}
+
+.contact-submit {
+    background-color: #f1ee8e;
+}
+
+footer {
+    background-color: #6d6d6d;
+    color: #fff;
+    height: 120px;
+}
+  
+.footer-logo {
+    float: left;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-left: 20px;
+    line-height: 50px;
+    letter-spacing: 5px;
+    padding-top: 36px;
+}
+  
+.footer-list {
+    float: right;
+    margin: 0;
+}
+  
+.footer-list li {
+    padding-bottom: 10px;
+    padding-top: 5px;
+    list-style: none;
+    margin: 0;
+    font-size: 12px;
+    padding-right: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+  
